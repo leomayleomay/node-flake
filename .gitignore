@@ -1,0 +1,6 @@
+/.direnv
+/just-flake.just
+/.pre-commit-config.yaml
+/test/node_modules
+/test/flake.lock
+/test/result
