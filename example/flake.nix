@@ -12,7 +12,9 @@
         inputs.node-flake.flakeModule
       ];
       perSystem = { self', inputs', pkgs, system, lib, ... }: {
-        node-project.src = ./.;
+        node-projects."nextjs-app" = {
+          src = ./nextjs-app;
+        };
       };
     };
 }

@@ -16,7 +16,6 @@
       in
       {
         dev = { inherit overrideInputs; dir = "dev"; };
-        test = { inherit overrideInputs; dir = "test"; };
       };
   };
 }
